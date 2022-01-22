@@ -1,0 +1,43 @@
+######################################################
+#                Chart Collections                   #
+######################################################
+templates:
+
+  Best of:
+    trakt_list: https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-of-<<year>>
+    sort_title: +1_Best of <<year>>
+    sync_mode: sync
+    summary: Rotten Tomatoes Best Movies of <<year>>
+    smart_label: audience_rating.desc
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/<<icon>>.jpg
+
+collections:
+
+  Best of 2014:
+    template: { name: Best of, year: 2014, icon: Best%20of%202014 }
+
+  Best of 2015:
+    template: { name: Best of, year: 2015, icon: Best%20of%202015 }
+
+  Best of 2016:
+    template: { name: Best of, year: 2016, icon: Best%20of%202016 }
+
+  Best of 2017:
+    template: { name: Best of, year: 2017, icon: Best%20of%202017 }
+
+  Best of 2018:
+    template: { name: Best of, year: 2018, icon: Best%20of%202018 }
+
+  Best of 2019:
+    template: { name: Best of, year: 2019, icon: Best%20of%202019 }
+
+  Best of 2020:
+    template: { name: Best of, year: 2020, icon: Best%20of%202020 }
+
+  Best of 2021:
+    template: { name: Best of, year: 2021, icon: Best%20of%202021 }
+
+  Best of 2022:
+    template: { name: Best of, year: 2022, icon: Best%20of%202022 }
+
+

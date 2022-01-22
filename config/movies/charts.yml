@@ -1,0 +1,36 @@
+######################################################
+#                Chart Collections                   #
+######################################################
+templates:
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    smart_label: random
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/<<icon>>.jpg
+
+collections:
+  Trending:
+    template: { name: Chart, num: 2, icon: Trending }
+    trakt_trending: 10
+    tmdb_trending_daily: 10
+    tmdb_trending_weekly: 10
+    summary: Movies Trending across the internet
+
+  Popular:
+    template: { name: Chart, num: 3, icon: Popular }
+    tmdb_popular: 40
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
+      limit: 40
+    summary: Popular Movies across the internet
+
+  Top Rated:
+    template: { name: Chart, num: 4, icon: Top%20Rated }
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
+    tmdb_top_rated: 250
+    summary: Top Rated Movies across the internet
+
+  Oscar Winners:
+    template: { name: Chart, num: 5, icon: Oscar%20Winners }
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    summary: Oscar Winning Movies

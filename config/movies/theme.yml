@@ -1,0 +1,42 @@
+######################################################
+#                Theme Collections                   #
+######################################################
+
+collections:
+
+  Jurassic Park:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/Jurassic%20Park.jpg
+    tmdb_collection_details:
+      - https://www.themoviedb.org/collection/328
+
+  Marvel Comics:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/Marvel%20Comics.jpg
+    trakt_list: 
+      - https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+      - https://trakt.tv/users/movistapp/lists/marvel
+    sync_mode: sync
+    radarr_add_missing: true
+    radarr_monitor: true
+
+  James Bond:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/James%20Bond.jpg
+    tmdb_collection:
+      - https://www.themoviedb.org/collection/645
+
+  Middle Earth:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/Middle%20Earth.jpg
+    tmdb_collection:
+      - 119
+      - https://www.themoviedb.org/collection/121938
+
+  DC Comics:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/DC%20Comics.jpg
+    trakt_list: https://trakt.tv/users/tetharion/lists/worlds-of-dc
+    sync_mode: sync
+
+  Star Wars:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/Star%20Wars.jpg
+    trakt_list: 
+      - https://trakt.tv/users/santiago/lists/star-wars-saga
+    sync_mode: sync
+

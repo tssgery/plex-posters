@@ -1,0 +1,51 @@
+templates:
+  network:
+    optional:
+      - network
+    tmdb_network: <<network>>
+    sort_title: +2_<<collection_name>>
+    sync_mode: sync
+    smart_label: episode_added.desc
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/<<icon>>.jpg
+collections:
+  ABC:
+    template: { name: network, network: 2, icon: ABC }
+  Amazon:
+    template: { name: network, network: 1024, icon: Amazon }
+  Apple:
+    template: { name: network, network: 2552, icon: Apple }
+  CBS:
+    template: { name: network, network: 16, icon: CBS }
+  Cinemax:
+    template: { name: network, network: 359, icon: Cinemax }
+  Disney:
+    template: { name: network, network: "2739, 2919", icon: Disney }
+  FOX:
+    template: { name: network, network: 19, icon: FOX }    
+  FX:
+    template: { name: network, network: 88, icon: FX }
+  HBO:
+    template: { name: network, network: "49, 2593, 3186, 3308", icon: HBO }
+  Hulu:
+    template: { name: network, network: 453, icon: Hulu }
+  NBC:
+    template: { name: network, network: 6, icon: NBC }
+  Netflix:
+    template: { name: network, network: 213, icon: Netflix }
+  Showtime:
+    template: { name: network, network: 67, icon: Showtime }
+  Starz:
+    template: { name: network, network: "318, 758, 4906", icon: Starz }
+  SYFY:
+    template: { name: network, network: "77, 3701", icon: SYFY }
+  TBS:
+    template: { name: network, network: "68, 160, 4888", icon: TBS }
+
+
+
+
+    
+
+
+
+
