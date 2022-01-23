@@ -3,7 +3,8 @@ templates:
     url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/<<icon>>.jpg
     plex_search:
       all:
-        title: <<show>>
+        title.is: <<show>>
+        year: <<year>>
         
 collections:
   Friends:
