@@ -1,0 +1,14 @@
+templates:
+  series:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/<<icon>>.jpg
+    plex_search:
+      all:
+        title: <<show>>
+        
+collections:
+  Friends:
+    template: { name: series, show: Friends, icon: Friends }
+
+  Lost:
+    template: { name: sereis, show: Lost, icon: Lost }
+        
