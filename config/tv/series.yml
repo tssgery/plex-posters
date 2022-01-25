@@ -11,4 +11,9 @@ collections:
 
   Lost:
     template: { name: series, show: Lost, icon: Lost }
-        
+  
+  Pilots:
+    collection_level: episode
+    plex_pilots: true
+    url_poster: https://theposterdb.com/api/assets/98558
+    
