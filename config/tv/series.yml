@@ -6,11 +6,11 @@ templates:
         title.is: <<show>>
         
 collections:
-  Friends:
-    template: { name: series, show: Friends, icon: Friends }
+#  Friends:
+#    template: { name: series, show: Friends, icon: Friends }
 
-  Lost:
-    template: { name: series, show: Lost, icon: Lost }
+#  Lost:
+#    template: { name: series, show: Lost, icon: Lost }
   
   Pilots:
     collection_level: episode
