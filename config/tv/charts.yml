@@ -15,10 +15,14 @@ collections:
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
+    visible_home: true
+    visible_library: true
     summary: Shows Trending across the internet
 
   Popular:
     template: { name: Chart, num: 3, icon: Popular }
+    visible_home: true
+    visible_library: true
     tmdb_popular: 40
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries
@@ -27,6 +31,7 @@ collections:
 
   Top Rated:
     template: { name: Chart, num: 4, icon: Top%20Rated }
+    visible_library: true
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc
       limit: 100
@@ -35,6 +40,7 @@ collections:
 
   Emmy Winners:
     template: { name: Chart, num: 5, icon: Emmy%20Winners }
+    visible_library: true
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
 
