@@ -14,11 +14,13 @@ collections:
     trakt_trending: 10
     tmdb_trending_daily: 10
     tmdb_trending_weekly: 10
+    visible_home: true
     summary: Movies Trending across the internet
 
   Popular:
     template: { name: Chart, num: 3, icon: Popular }
     tmdb_popular: 40
+    visible_home: true
     imdb_list:
       url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,short
       limit: 40
@@ -28,6 +30,7 @@ collections:
     template: { name: Chart, num: 4, icon: Top%20Rated }
     imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250/
     tmdb_top_rated: 250
+    visible_home: true
     summary: Top Rated Movies across the internet
 
   Oscar Winners:
