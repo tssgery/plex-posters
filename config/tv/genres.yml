@@ -3,7 +3,6 @@ templates:
     default:
       exclude: Children, Anime
     sort_title: +02_<<collection_name>>
-    url_background: https://wallpaper.dog/large/20509069.jpg
     smart_filter:
       sort_by: release.desc
       validate: false
@@ -25,12 +24,6 @@ collections:
   Comedy:
     template: { name: Genre, genre: comedy }
     url_poster: https://i.imgur.com/dIMKbt9.jpg
-  Competition:
-    template: { name: Genre, genre: "game show" }
-    url_poster: https://i.imgur.com/tAApO7d.jpg
-  Cooking:
-    template: { name: Genre, genre: "cooking, food" }
-    url_poster: https://i.imgur.com/dVXspVv.jpg
   Crime:
     template: { name: Genre, genre: crime }
     url_poster: https://i.imgur.com/1FYD7Cz.jpg
@@ -52,12 +45,6 @@ collections:
   Horror:
     template: { name: Genre, genre: horror }
     url_poster: https://i.imgur.com/M6msOoq.jpg
-  Music:
-    template: { name: Genre, genre: music, exclude: null}
-    url_poster: https://i.imgur.com/eCJZSue.jpg
-  Musical:
-    template: { name: Genre, genre: musical, exclude: null}
-    url_poster: https://i.imgur.com/xBTTyNx.jpg
   Mystery:
     template: { name: Genre, genre: mystery }
     url_poster: https://i.imgur.com/t1ArisJ.jpg
