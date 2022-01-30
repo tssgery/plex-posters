@@ -8,10 +8,18 @@ templates:
 collections:
   Black Sails:
     template: { name: series, show: "Black Sails", icon: Black%20Sails }
+  Breaking Bad:
+    template: { name: series, show: "Breaking Bad", icon: Breaking%20Bad }
   Friends:
     template: { name: series, show: Friends, icon: Friends }
+  Game of Thrones:
+    template: { name: series, show: "Game of Thrones", icon: Game%20of%20Thrones }
   Lost:
     template: { name: series, show: Lost, icon: Lost }
+  Westworld:
+    template: { name: series, show: Westworld, icon: Westworld }
+  Yellowstone:
+    template: { name: series, show: Yellowstone, icon: Yellowstone }
   Pilots:
     collection_level: episode
     plex_pilots: true
