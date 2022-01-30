@@ -19,6 +19,6 @@ collections:
   Westworld:
     template: { name: series, show: Westworld, icon: Westworld }
   Yellowstone:
-    template: { name: series, show: Yellowstone, icon: Yellowstone }
+    template: { name: series, show: "Yellowstone (2018)", icon: Yellowstone }
 
     
