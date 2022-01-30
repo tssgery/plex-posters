@@ -45,6 +45,7 @@ collections:
     summary: Emmy Winning Shows
 
   Pilots:
+    template: { name: Chart, num: 6, icon: Pilots }
     collection_level: episode
     plex_pilots: true
-    url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/Pilots.jpg
+
