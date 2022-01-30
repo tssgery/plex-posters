@@ -6,7 +6,11 @@ templates:
         title.is: <<show>>
         
 collections:
-  Friends:
+
+Black Sails:
+    template: { name: series, show: Black Sails, icon: Black%20Sails }
+
+Friends:
     template: { name: series, show: Friends, icon: Friends }
 
   Lost:
