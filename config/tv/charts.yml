@@ -44,3 +44,7 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&groups=emmy_winner
     summary: Emmy Winning Shows
 
+  Pilots:
+    collection_level: episode
+    plex_pilots: true
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/Pilots.jpg
