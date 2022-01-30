@@ -7,10 +7,10 @@ templates:
         
 collections:
 
-Black Sails:
+  Black Sails:
     template: { name: series, show: Black Sails, icon: Black%20Sails }
 
-Friends:
+  Friends:
     template: { name: series, show: Friends, icon: Friends }
 
   Lost:
