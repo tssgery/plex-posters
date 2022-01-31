@@ -16,6 +16,8 @@ collections:
     template: { name: series, show: "Game of Thrones", icon: Game%20of%20Thrones }
   Lost:
     template: { name: series, show: Lost, icon: Lost }
+  Office:
+    template: { name: series, show: "The Office (US)", icon: The%20Office }
   Westworld:
     template: { name: series, show: Westworld, icon: Westworld }
   Yellowstone:
