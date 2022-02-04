@@ -18,6 +18,10 @@ collections:
     template: { name: series, show: Lost, icon: Lost }
   Office:
     template: { name: series, show: "The Office (US)", icon: The%20Office }
+  South Park:
+    template: { name: series, show: "South Park", icon: South%20Park }
+  The Simpsons:
+    template: { name: series, show: "The Simpsons", icon: The%20Simpsons }
   Westworld:
     template: { name: series, show: Westworld, icon: Westworld }
   Yellowstone:
