@@ -37,7 +37,7 @@ collections:
   Starz:
     template: { name: network, network: "318, 758, 4906", icon: Starz }
   SYFY:
-    template: { name: network, network: "77, 3701", icon: SYFY }
+    template: { name: network, network: "77, 3701", icon: SyFy }
   TBS:
     template: { name: network, network: "68, 160, 4888", icon: TBS }
 
