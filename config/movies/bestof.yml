@@ -9,6 +9,7 @@ templates:
     sync_mode: sync
     summary: Rotten Tomatoes Best Movies of <<year>>
     smart_label: audience_rating.desc
+    visible_library: false
     url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/<<icon>>.jpg
 
 collections:

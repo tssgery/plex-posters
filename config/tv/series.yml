@@ -1,6 +1,7 @@
 templates:
   series:
     url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/<<icon>>.jpg
+    visible_library: false
     plex_search:
       all:
         title.is: <<show>>

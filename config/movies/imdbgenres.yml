@@ -14,6 +14,7 @@ templates:
     sort_title: +3_<<collection_name>>
     sync_mode: sync
     smart_label: random
+    visible_library_ false
     url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/<<icon>>.jpg
 
 collections:

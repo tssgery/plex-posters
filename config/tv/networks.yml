@@ -4,9 +4,11 @@ templates:
       - network
     tmdb_network: <<network>>
     sort_title: +2_<<collection_name>>
+    visible_library: false
     sync_mode: sync
     smart_label: episode_added.desc
     url_poster: https://github.com/tssgery/plex-posters/raw/main/TV%20Shows/<<icon>>.jpg
+
 collections:
   ABC:
     template: { name: network, network: 2, icon: ABC }

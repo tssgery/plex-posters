@@ -3,6 +3,7 @@ templates:
     default:
       exclude: Children, Anime
     sort_title: +3_<<collection_name>>
+    visible_library: false
     smart_filter:
       sort_by: release.desc
       validate: false
