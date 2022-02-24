@@ -8,7 +8,6 @@ templates:
     tmdb_company: <<company>>
     sync_mode: sync
     smart_label: release.desc
-    visible_library: false
     url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/<<icon>>.jpg
 
 collections:
