@@ -13,7 +13,6 @@ templates:
       validate: false
     tmdb_person: <<person>>
     sort_title: +4_<<collection_name>>
-    url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/People.jpg
   
 collections:
   Adam Sandler:
