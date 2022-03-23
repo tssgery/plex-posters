@@ -47,3 +47,7 @@ collections:
 
   Jennifer Aniston:
     template: {name: Person, person: 4491}
+    
+  Will Ferrell:
+    template: {name: Person, person: 23659}
+   
