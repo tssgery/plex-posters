@@ -48,6 +48,12 @@ collections:
   Jennifer Aniston:
     template: {name: Person, person: 4491}
     
+  Paul Rudd:
+    template: {name: Person, person: 22226}
+  
+  Ryan Reynolds:
+    template: {name: Person, person: 10859}
+    
   Will Ferrell:
     template: {name: Person, person: 23659}
    
