@@ -1,7 +1,5 @@
 templates:
   Genre:
-    default:
-      exclude: Children, Anime
     sort_title: +3_<<collection_name>>
     visible_library: false
     smart_filter:
