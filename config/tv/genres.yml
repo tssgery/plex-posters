@@ -6,7 +6,6 @@ templates:
       sort_by: release.desc
       validate: false
       all:
-        genre.not: <<exclude>>
         audio_language: en
         genre: <<genre>>
 
@@ -18,7 +17,7 @@ collections:
     template: { name: Genre, genre: adventure }
     url_poster: https://i.imgur.com/fZMIfdy.jpg
   Animation:
-    template: { name: Genre, genre: animation, exclude: null }
+    template: { name: Genre, genre: animation }
     url_poster: https://i.imgur.com/W9355wl.jpg
   Comedy:
     template: { name: Genre, genre: comedy }
@@ -30,10 +29,10 @@ collections:
     template: { name: Genre, genre: drama }
     url_poster: https://i.imgur.com/RwOUFLI.jpg
   Family:
-    template: { name: Genre, genre: family, exclude: null }
+    template: { name: Genre, genre: family }
     url_poster: https://i.imgur.com/k4VAgNR.jpg
   Fantasy:
-    template: { name: Genre, genre: fantasy, exclude: null }
+    template: { name: Genre, genre: fantasy }
     url_poster: https://i.imgur.com/IdeoNnr.jpg
   History:
     template: { name: Genre, genre: history }
