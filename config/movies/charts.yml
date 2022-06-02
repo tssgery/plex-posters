@@ -16,6 +16,8 @@ collections:
     tmdb_trending_weekly: 10
     visible_home: true
     visible_library: true
+    radarr_add_missing: true
+    radarr_monitor: true
     summary: Movies Trending across the internet
 
   Popular:
