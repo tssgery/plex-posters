@@ -1,0 +1,8 @@
+collections:
+  Music Videos:
+    url_poster: https://github.com/tssgery/plex-posters/raw/main/music-videos/music-video.png
+    visible_library: false
+    plex_all: true
+
+
+    
