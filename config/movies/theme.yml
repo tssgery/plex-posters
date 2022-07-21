@@ -43,6 +43,6 @@ collections:
     url_poster: https://github.com/tssgery/plex-posters/raw/main/Movies/Star%20Wars.jpg
     visible_library: false
     trakt_list: 
-      - https://trakt.tv/users/santiago/lists/star-wars-saga
+      - https://trakt.tv/users/movistapp/lists/star-wars
     sync_mode: sync
 
