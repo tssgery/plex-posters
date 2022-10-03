@@ -5,7 +5,7 @@ templates:
   IMDb Genre:
     default:
       title: feature
-      limit: 100
+      limit: 500
     imdb_list:
       - url: https://www.imdb.com/search/title/?title_type=<<title>>&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=<<genre>>
         limit: <<limit>>
