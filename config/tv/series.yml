@@ -26,7 +26,7 @@ collections:
   Office:
     template: { name: series, show: "The Office (US)", icon: The%20Office }
   Shameless:
-    template: { name: series, show: "Shameless" }
+    template: { name: series, show: "Shameless (US)" }
   South Park:
     template: { name: series, show: "South Park", icon: South%20Park }
   Stranger Things:
