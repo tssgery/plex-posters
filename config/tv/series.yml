@@ -13,16 +13,24 @@ collections:
     template: { name: series, show: "Black Sails", icon: Black%20Sails }
   Breaking Bad:
     template: { name: series, show: "Breaking Bad", icon: Breaking%20Bad }
+  Everybody Loves Raymond:
+    template: { name: series, show: "Everybody Loves Raymond" }
   Friends:
     template: { name: series, show: Friends, icon: Friends }
   Game of Thrones:
     template: { name: series, show: "Game of Thrones", icon: Game%20of%20Thrones }
   Lost:
     template: { name: series, show: Lost, icon: Lost }
+  Modern Family:
+    template: { name: series, show: "Modern Family" }
   Office:
     template: { name: series, show: "The Office (US)", icon: The%20Office }
+  Shameless:
+    template: { name: series, show: "Shameless" }
   South Park:
     template: { name: series, show: "South Park", icon: South%20Park }
+  Stranger Things:
+    template: { name: series, show: "Stranger Things" }
   The Simpsons:
     template: { name: series, show: "The Simpsons", icon: The%20Simpsons }
   Westworld:
