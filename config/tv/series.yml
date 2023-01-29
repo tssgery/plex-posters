@@ -33,6 +33,8 @@ collections:
     template: { name: series, show: "Stranger Things" }
   The Simpsons:
     template: { name: series, show: "The Simpsons", icon: The%20Simpsons }
+  True Blood:
+    template: { name: series, show: "True Blood"}    
   Westworld:
     template: { name: series, show: Westworld, icon: Westworld }
   Yellowstone:
