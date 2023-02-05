@@ -53,6 +53,9 @@ collections:
   
   Ryan Reynolds:
     template: {name: Person, person: 10859}
+
+  Salma Hayek:
+    template: {name: Person, person: 3136}
     
   Will Ferrell:
     template: {name: Person, person: 23659}
