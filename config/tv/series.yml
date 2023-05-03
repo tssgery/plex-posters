@@ -27,12 +27,8 @@ collections:
     template: { name: series, show: "The Office (US)", icon: The%20Office }
   Shameless:
     template: { name: series, show: "Shameless (US)" }
-  South Park:
-    template: { name: series, show: "South Park", icon: South%20Park }
   Stranger Things:
     template: { name: series, show: "Stranger Things" }
-  The Simpsons:
-    template: { name: series, show: "The Simpsons", icon: The%20Simpsons }
   True Blood:
     template: { name: series, show: "True Blood"}    
   Westworld:
